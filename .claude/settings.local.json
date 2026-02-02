@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n🔒 add rate limiting to chat API\n\n- Add in-memory rate limiting \\(10 requests/minute per IP\\)\n- Protect against API abuse and quota exhaustion\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n🔍️ add robots.txt for search engine crawling\n\n- Allow all crawlers on public pages\n- Block /api/ routes\n- Reference sitemap.xml\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Skill(superpowers:brainstorming)",
+      "WebFetch(domain:gsap.com)",
+      "Bash(find:*)",
+      "WebSearch",
+      "Skill(superpowers:writing-plans)",
+      "Skill(superpowers:subagent-driven-development)",
+      "Bash(npm install)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(npm install:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm version:*)",
+      "Bash(tee:*)",
+      "Bash(npm cache clean:*)",
+      "Bash(git checkout:*)",
+      "Bash(echo:*)",
+      "WebFetch(domain:www.boha-group.com)",
+      "Bash(grep:*)",
+      "Bash(npm show:*)",
+      "Bash(npm info:*)",
+      "WebFetch(domain:ai-sdk.dev)",
+      "Bash(npm view:*)",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}

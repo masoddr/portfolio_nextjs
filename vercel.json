@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/guides/ai/mvp",
+      "destination": "https://ai-guide-blond.vercel.app/guides/ai/mvp"
+    },
+    {
+      "source": "/guides/ai/mvp/:path*",
+      "destination": "https://ai-guide-blond.vercel.app/guides/ai/mvp/:path*"
+    }
+  ]
+}
