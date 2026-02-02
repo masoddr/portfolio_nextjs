@@ -18,11 +18,12 @@ export default function PersonalProjectsPage() {
   const listRef = useRef<HTMLUListElement>(null)
 
   const getTranslatedProject = (project: typeof personalProjects[0]) => {
-    if (project.translations && project.translations[language]) {
+    const translation = project.translations?.[language]
+    if (translation) {
       return {
         ...project,
-        title: project.translations[language].title,
-        description: project.translations[language].description,
+        title: translation.title,
+        description: translation.description,
       }
     }
     return project
