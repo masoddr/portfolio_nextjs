@@ -8,7 +8,6 @@ import {
   TwitterXIcon,
   YoutubeIcon,
 } from '@/components/SocialIcons'
-import avatarImage from '@/images/avatar.webp'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -72,8 +71,10 @@ export default function About() {
             {/* Avatar */}
             <div className="mb-12">
               <Image
-                src={avatarImage}
+                src="/imgs/massyl.jpg"
                 alt="Massyl Ouaddour"
+                width={512}
+                height={512}
                 sizes="(min-width: 1024px) 32rem, 24rem"
                 className="aspect-square rounded-lg bg-zinc-800 object-cover grayscale transition-all duration-500 hover:grayscale-0"
               />
