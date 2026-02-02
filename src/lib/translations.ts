@@ -55,7 +55,7 @@ export const translations = {
       rights: 'Tous droits réservés',
     },
     badge: {
-      rotatingText: "années d'expérience en développement Python",
+      rotatingText: "années d'expérience en développement",
       centerValue: '5 ans',
     },
     work: {
@@ -163,7 +163,7 @@ export const translations = {
       rights: 'All rights reserved',
     },
     badge: {
-      rotatingText: 'years of experience in Python development',
+      rotatingText: 'years of experience in development',
       centerValue: '5 years',
     },
     work: {
